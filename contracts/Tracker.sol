@@ -13,7 +13,7 @@ contract Tracker is Context, IERC20, IERC20Metadata, Ownable, Pausable {
     mapping(address => uint256) private _balances;
     uint256 private _totalSupply;
     string private _prefixName;
-    string private _prefixSymbo;
+    string private _prefixSymbol;
     string private _name;
     string private _symbol;
     address private _token;
